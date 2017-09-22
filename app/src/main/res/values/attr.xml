@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="ChangeColorIconWithText">
+
+        <attr name="icon_1" format="reference"/>
+        <attr name="color_1" format="color"/>
+        <attr name="text_1" format="string"/>
+        <attr name="text_size_1" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="MyView">
+        <attr name="myText" format="string"/>
+        <attr name="myText_Size" format="dimension"/>
+        <attr name="myText_Color" format="reference|color"/>
+    </declare-styleable>
+    <declare-styleable name="CustomLayout">
+        <attr name="layout_position">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+            <enum name="rightAndBottom" value="4"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="LimitScrollerView">
+        <!--显示的条目数-->
+        <attr name="limit" format="integer"/>
+        <!--滚动速度 ，滚动持续时间-->
+        <attr name="durationTime" format="integer"/>
+        <!--滚动间隔 滚动完成后的停留时间-->
+        <attr name="periodTime" format="integer"/>
+    </declare-styleable>
+</resources>

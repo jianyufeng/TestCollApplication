@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.sanba.im.testcollapplication"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+
+        <activity android:name=".ToolbarHideActivity"/>
+        <activity android:name=".CollapsingActivity"
+            />
+        <activity
+            android:name=".sfs.ViewPagerActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            >
+
+        </activity>
+        <activity android:name=".sfs.VerticalDragActivity">
+
+
+        </activity>
+        <activity android:name=".drag.DragActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name=".widegt.MyViewActivity">
+
+        </activity>
+        <activity android:name=".drag.LeftDrawerLayoutActivity">
+
+        </activity>
+        <activity android:name=".widegt.viewgroup.MyViewGroupActivity">
+
+        </activity>
+        <activity android:name=".widegt.autoscroll.AutoScrollActivity">
+
+        </activity>
+        <activity android:name=".move.MoveActivity">
+
+        </activity>
+        <activity android:name=".scroll.ScrollActivity">
+
+        </activity>
+        <activity android:name=".event.detector.GestureDetectorActivity">
+
+        </activity>
+        <activity android:name=".scroll.BounceActivity">
+
+        </activity>
+
+    </application>
+
+</manifest>

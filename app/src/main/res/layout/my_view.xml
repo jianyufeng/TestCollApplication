@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.sanba.im.testcollapplication.widegt.MyView
+        android:background="@color/colorAccent"
+        android:layout_width="150dp"
+        android:layout_height="350dp"
+        app:myText="防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的防守打法是否地方 谁说的"
+        app:myText_Color="#000"
+        app:myText_Size="18sp"
+        android:id="@+id/myView"/>
+</LinearLayout>

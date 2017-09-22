@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="select_pic">
+        <item>拍照</item>
+        <item>从相册选择</item>
+        <item>使用默认图像</item>
+        <item>取消</item>
+        <item>拍照</item>
+        <item>从相册选择</item>
+        <item>使用默认图像</item>
+        <item>取消</item>
+        <item>拍照</item>
+        <item>从相册选择</item>
+        <item>使用默认图像</item>
+        <item>取消</item>
+        <item>拍照</item>
+        <item>从相册选择</item>
+        <item>使用默认图像</item>
+        <item>取消</item>
+        <item>拍照</item>
+        <item>从相册选择</item>
+        <item>使用默认图像</item>
+        <item>取消</item>
+        <item>拍照</item>
+        <item>从相册选择</item>
+        <item>使用默认图像</item>
+        <item>取消</item>
+        <item>拍照</item>
+        <item>从相册选择</item>
+        <item>使用默认图像</item>
+        <item>取消</item>
+    </string-array>
+</resources>
